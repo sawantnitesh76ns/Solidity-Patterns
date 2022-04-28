@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_myid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_myid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_proof",
+						"type": "bytes"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "activity",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "getActivity",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Oracle.sol": "Oracle"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Oracle.sol": {
+			"keccak256": "0x26ba69826b7f9facc1c86e1505c4cc542d3f7e0d9ce5f12239a3bfccefd4a9b1",
+			"urls": [
+				"bzz-raw://5f002d3e43d66f30a4150d7c8b2fb77a01cc5101b4fa03aa399fcf29487f08e1",
+				"dweb:/ipfs/QmPu6cm7QAdxYxPZo6AiSdkfsXYUi6e216WwhpyAecuxLj"
+			]
+		},
+		"https://github.com/provable-things/ethereum-api/blob/master/provableAPI_0.5.sol": {
+			"keccak256": "0x194e0f6f1b2cf2eca7204430e81ebd6cc6ca449350b04ffcc9bb17c24a8094fc",
+			"urls": [
+				"bzz-raw://afbe8ed8f8729fc3622144a244e9f64e0fb91084828ab68e9508aa0babe44e6e",
+				"dweb:/ipfs/QmTBzJ6hvap4Ark27NGPU4HyY9F6tTcR5PxMkMvQRxzeLu"
+			]
+		}
+	},
+	"version": 1
+}
